@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .OPD {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    padding: 6px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
