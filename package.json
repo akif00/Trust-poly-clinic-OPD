@@ -1,0 +1,15 @@
+{
+  "name": "trust-poly-clinic-opd",
+  "version": "1.0.0",
+  "description": "OPD Desktop Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Mohammed Akif",
+  "license": "Trust Poly Clinic",
+  "devDependencies": {
+    "electron": "^19.0.1"
+  }
+}
