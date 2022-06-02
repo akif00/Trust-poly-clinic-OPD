@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-       <link rel="stylesheet" href="style.css" media="print">
+    <link rel="stylesheet" href="style.css" />
     <title>OPD Application</title>
   </head>
   <body>
@@ -25,14 +25,25 @@
         </select></label
       >
       <label>Address:<input type="text" required /></label>
-      <label>Doctor:<input type="text" required /></label>
+      <label>Doctor's Name:<input type="text" required /></label>
     </form>
-    <hr />
-    <h2>Patient Case History</h2>
-    <hr />
-    <div>
-      <h3>History:</h3>
-      <h4>Med</h4>
+    <h2 class="case">Patient Case History</h2>
+    <div class="history">
+      <div class="box">
+        <h3>Medicine History:</h3>
+        <h3 class="exam">Examination:</h3>
+        <h4>Temp-</h4>
+        <h4>BP-</h4>
+        <h4>Spo2-</h4>
+        <h4>Height-</h4>
+        <h4>Weight-</h4>
+      </div>
+      <div class="advice">
+        <h3>ADVICE:</h3>
+      </div>
+      <div>
+        <h3 class="invest">Investigations:</h3>
+      </div>
     </div>
 
     <script src="index.js"></script>
